@@ -1,0 +1,87 @@
+header {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.container {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-phone {
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase; 
+    letter-spacing: 1.8px;
+}
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    display: block;
+    padding: 20px 0 13px;
+}
+.header-favorites {
+    display: block;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    position: relative;
+    padding-right: 43px;
+    &:after {
+        content:'';
+        display: block;
+        position: absolute;
+        background: url('/assets/components/app/web/img/love.png') no-repeat;
+        width: 24px;
+        height: 21px;
+        right: 3px;
+        top: 1px;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+}
+.header-menu {
+    margin: 0 auto;
+    padding: 16px 0;
+    list-style: none;
+    max-width: 1037px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-transform: uppercase;
+        letter-spacing: 2.24px;
+        line-height: 1;
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+        &:hover {
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
+

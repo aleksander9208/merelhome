@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '48e957581827da58fde8cdd1fa465f97',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '61d3bd279c1b2f6d5f1069453569a3d8',
+  'native_key' => 'OnBeforeCommentVote',
+  'object' => '{"name":"OnBeforeCommentVote","service":6,"groupname":"Tickets"}',
+);

@@ -1,0 +1,298 @@
+.product-wrapper {
+    header {
+        position: unset;
+        border-bottom: none;
+    }
+    .header-phone, .header-favorites, .header-menu a, .breadcrumb a, .breadcrumb li:after, .breadcrumb .active {
+        color: #000;
+    }
+    .header-favorites {
+        &:after {
+            background: url('/assets/components/app/web/img/love-black.png') no-repeat;
+        }
+    }
+    .product-home {
+        text-align: center;
+        margin-bottom: 3.1%;
+    }
+    .breadcrumb {
+        border-top: 1px solid #c7c7c6;
+        border-bottom: 1px solid #dfdedc;
+        padding: 17px 0 18px;
+    }
+    .individual-changes {
+        background-color: #f6f3f0;
+        max-width: unset;
+        padding: 50px 50px;
+        margin-bottom: 4.5%;
+    }
+}
+.product-content {
+    display: grid;
+    grid-template-columns: 53.2% 46.8%;
+    margin-bottom: 4.7%;
+}
+.ProductGallery__image {
+    display: block;
+    min-height: 478px;
+}
+.product-gallery_wrapper {
+    margin-bottom: 3.3%;
+    min-height: 478px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+.ProductGallery__carousel {
+    position: relative;
+    padding: 0 74px;
+}
+.js-small-thumb {
+    display: block;
+    min-height: 52px;
+}
+.fancybox-image-of {
+    display: none !important;
+}
+.product-content_info {
+    padding: 2.9% 0 0 13.4%;
+}
+.product-pagetitle {
+    color: #161616;
+    font-family: Optima;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 10%;
+    span {
+        color: #000000;
+        font-family: Gilroy;
+        font-size: 13px;
+        font-weight: 300;
+        display: block;
+        padding-top: 36px;
+        line-height: 1.4;
+    }
+
+}
+.product-price {
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 9.3%;
+    span {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+.product-price_red {
+    color: #000;
+    font-size: 12px;
+    margin: 10px 0;
+    text-transform: initial;
+    letter-spacing: normal;
+}
+.product-link {
+    display: grid;
+    grid-template-columns: 48% 51%;
+    margin-bottom: 9%;
+}
+.product-link_favorites {
+    background-color: #000;
+    background-image: url('/assets/components/app/web/img/love.png');
+    background-repeat: no-repeat;
+    background-position: 19% 46%;
+    color: #ffffff;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    text-align: center;
+    padding: 16px 0 16px 39px;
+    text-decoration: none;
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: #191713;
+    }
+    span:nth-child(2) {
+        display:none;
+    }
+}
+.is-active {
+    background-color: #000;
+    span:nth-child(1) {
+        display:none;
+    }
+    span:nth-child(2) {
+        display:block;
+    }
+}
+.product-link_cost {
+    border: 1px solid #000000;
+    background-color: #f8f7f5;
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-left: 17px;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+    &:hover {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+    }
+}
+.product-options {
+    display: grid;
+    grid-template-columns: 39% 61%;
+    margin-top: 30px;
+}
+.product-options_title {
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.product-options_result {
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.collection-title {
+    text-align: center;
+    color: #353535;
+    font-family: Optima;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-bottom: 3.8%;
+}
+.collection-content {
+    display: grid;
+    grid-template-columns: 32.2% 32.2% 32.2%;
+    margin-bottom: 10.4%;
+    grid-gap: 20px;
+}
+.collection-content_block {
+    text-align: center;
+}
+.collection-content_block a {
+    color: #353535;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-decoration: none;
+}
+.collection-content_block a:first-child {
+    max-height: 293px;
+    min-height: 293px;
+    overflow: hidden;
+    display: flex;
+}
+.collection-content_block img {
+    margin-bottom: 5.3%;
+}
+.favorites > span {
+    color: #161616;
+    font-family: Optima;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin-bottom: 4%;
+}
+
+.favorites-content {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-bottom: 1.4%;
+}
+.favorites-detail {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.favorites-detail a {
+    display: inline-block;
+    border: 1px solid #000000;
+    background-color: #f8f7f5;
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    padding: 17px 35px;
+}
+
+.favorites-detail_delete {
+    display: block;
+    text-align: center;
+}
+
+.favorites-detail_delete a {
+    color: #cccccc;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    position: relative;
+    display: inline-block;
+}
+
+.favorites-detail_delete a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #ccc;
+    width: 15px;
+    height: 3px;
+    border-radius: 5px;
+    left: -18px;
+    top: 9px;
+    transform: rotate(45deg);
+}
+
+.favorites-detail_delete a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #ccc;
+    width: 15px;
+    height: 3px;
+    border-radius: 5px;
+    left: -18px;
+    top: 9px;
+    transform: rotate(-45deg);
+}
+
+.fancybox-title.fancybox-title-float-wrap {
+    display: none;
+}
+
+
+
+
+
+

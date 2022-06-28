@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'msfavorites',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '603f97e7996421b1ea01c300cfc95290',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '3485816f9d59115e896cd208b141c5ae',
+  'native_key' => 'msFavoritesOnProcessFavorites',
+  'object' => '{"name":"msFavoritesOnProcessFavorites","service":6,"groupname":"msFavorites"}',
+);

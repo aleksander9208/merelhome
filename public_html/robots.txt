@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /components/
+Disallow: */?s=
+Disallow: *sort=
+Disallow: *view=
+Disallow: *utm=
+Disallow: /404
+
+User-agent: GoogleBot
+Disallow: /manager/
+Disallow: /components/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+
+User-agent: YandexBot
+Disallow: /manager/
+Disallow: /components/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+Crawl-Delay: 0.5
+
+Host: https://merelhome.com
+Sitemap: https://merelhome.com/sitemap.xml

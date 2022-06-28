@@ -1,0 +1,30 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd2572fba9ed17ab7489a6668e9d81d1a',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '1bc5da83e3ad430cc8789a6fbe718a16',
+  'native_key' => 'tickets',
+  'object' => '{"text":"tickets","parent":"components","action":"home","description":"ticket_menu_desc","icon":"<i class=\\"icon icon-large icon-comments-0\\"><\\/i>","menuindex":0,"params":"","handler":"","permissions":"","namespace":"tickets"}',
+);

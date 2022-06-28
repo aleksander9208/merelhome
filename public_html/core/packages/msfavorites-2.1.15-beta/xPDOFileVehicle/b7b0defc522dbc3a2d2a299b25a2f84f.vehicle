@@ -1,0 +1,23 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'msfavorites-2.1.15-beta/xPDOFileVehicle/b7b0defc522dbc3a2d2a299b25a2f84f/',
+    'target' => 'return MODX_CORE_PATH . \'components/modstore/\';',
+    'name' => 'modstorevehicle.class.php',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"msfavorites-2.1.15-beta\\/xPDOFileVehicle\\/b7b0defc522dbc3a2d2a299b25a2f84f.resolve.encryption.resolver","name":"resolve.encryption"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'fea2d43bd7f72b703d4d849f4c78fd93',
+  'package' => '',
+  'signature' => 'b7b0defc522dbc3a2d2a299b25a2f84f',
+  'native_key' => 'fea2d43bd7f72b703d4d849f4c78fd93',
+);
